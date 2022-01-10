@@ -1,0 +1,32 @@
+{
+  "name": "segwaycalifornia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass src/styles.scss public/styles.css",
+    "build-html": "ejs src/index.ejs -o public/index.html",
+    "build": "npm run build-css && npm run build-html",
+    "wathc": "watch \"npm run build\" ./src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Azazelonex/SegWayCalifornia.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Azazelonex/SegWayCalifornia/issues"
+  },
+  "homepage": "https://github.com/Azazelonex/SegWayCalifornia#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "node-sass": "^6.0.1",
+    "watch": "^1.0.2"
+  },
+  "devDependencies": {
+    "sass": "^1.43.2"
+  }
+}

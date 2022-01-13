@@ -1,3 +1,53 @@
-* {
-    box-sizing: border-box;
-}
+.productItem {
+  display: block;
+  width: 137.14px;
+  height: 130px;
+  background-position: center;
+  background-repeat: no-repeat; }
+  .productItem :hover {
+    background-color: #009EFF; }
+
+.productItem-imgFirst {
+  background-image: url(/src/img/productItemImg/KSE22.png); }
+
+.productItem-imgSecond {
+  background-image: url(/src/img/productItemImg/KSES1l.png); }
+
+.productItem-imgThird {
+  background-image: url(/src/img/productItemImg/KSAirt15.png); }
+
+.productItem-imgFourth {
+  background-image: url(/src/img/productItemImg/KSF30.png); }
+
+.productItem-imgFifth {
+  background-image: url(/src/img/productItemImg/KSE45.png); }
+
+.productItem-imgSisxt {
+  background-image: url(/src/img/productItemImg/KSMAX.png); }
+
+.productItem-imgSeventh {
+  background-image: url(/src/img/productItemImg/KSMAXwhite.png); }
+
+.productItem-imgEighth {
+  background-image: url(/src/img/productItemImg/KSES2.png); }
+
+.productItem-imgNinth {
+  background-image: url(/src/img/productItemImg/KSES3.png); }
+
+.productItem-imgTenth {
+  background-image: url(/src/img/productItemImg/EKSZINGE8.png); }
+
+.productItem-imgEleventh {
+  background-image: url(/src/img/productItemImg/EKSZINGE10.png); }
+
+.productItem-imgTwelfth {
+  background-image: url(/src/img/productItemImg/EKSZINGE12.png); }
+
+.productItem-imgThirteenth {
+  background-image: url(/src/img/productItemImg/KSES4.png); }
+
+.productItem-imgFourteenth {
+  background-image: url(/src/img/productItemImg/Accessories.png); }
+
+.flexConteiner {
+  display: flexbox; }

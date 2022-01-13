@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-css": "node-sass src/styles.scss public/styles.css",
+    "build-css": "node-sass src/style.scss public/css/style.css",
     "build-html": "ejs src/index.ejs -o public/index.html",
     "build": "npm run build-css && npm run build-html",
     "wathc": "watch \"npm run build\" ./src"
